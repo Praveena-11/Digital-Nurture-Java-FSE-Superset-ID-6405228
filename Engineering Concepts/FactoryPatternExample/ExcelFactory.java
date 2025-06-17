@@ -1,8 +1,8 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
 public class ExcelFactory extends DocumentFactory{
     @Override
     public Document createDocument() {
-        return new Excel();
+        return new ExcelDocument();
     }
 }

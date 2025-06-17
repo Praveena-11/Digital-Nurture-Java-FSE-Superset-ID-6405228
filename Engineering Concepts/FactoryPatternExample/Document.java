@@ -1,4 +1,4 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
 public interface Document {
     void open();

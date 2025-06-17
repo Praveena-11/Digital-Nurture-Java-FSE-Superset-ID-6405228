@@ -1,6 +1,6 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
-public class Excel implements Document{
+public class ExcelDocument implements Document{
     @Override
     public void open() {
         System.out.println("Opening Excel Document...");

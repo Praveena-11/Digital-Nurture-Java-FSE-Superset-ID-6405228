@@ -1,8 +1,8 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
 public class WordFactory extends DocumentFactory{
     @Override
     public Document createDocument() {
-        return new Word();
+        return new WordDocument();
     }
 }

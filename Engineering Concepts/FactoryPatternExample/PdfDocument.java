@@ -1,6 +1,6 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
-public class Pdf implements Document {
+public class PdfDocument implements Document {
     @Override
     public void open() {
         System.out.println("Opening Pdf Document...");

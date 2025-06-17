@@ -1,8 +1,8 @@
-package Factory_Pattern;
+package FactoryPatternExample;
 
 public class PdfFactory extends DocumentFactory{
     @Override
     public Document createDocument() {
-        return new Pdf();
+        return new PdfDocument();
     }
 }
