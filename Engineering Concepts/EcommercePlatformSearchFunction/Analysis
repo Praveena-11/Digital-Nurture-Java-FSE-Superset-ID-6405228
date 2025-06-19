@@ -1,0 +1,12 @@
+Comparison of Time Complexity:
+
+Linear Search has a time complexity of O(n). This means the algorithm checks each element one by one until the desired item is found or the list ends. In the worst case, it may need to search the entire array.
+Binary Search has a time complexity of O(log n). It works on sorted arrays by repeatedly dividing the search interval in half, making it significantly faster for large datasets.
+
+
+Which Algorithm is More Suitable and Why:
+
+For an e-commerce platform with potentially thousands of products, binary search is generally more suitable due to its faster performance on large sorted datasets.
+While linear search is easier to implement and works on unsorted data, it becomes inefficient as the number of products grows.
+Therefore, if the product data can be kept sorted by the search key (e.g., product name or ID), binary search is preferred as it ensures quicker search results
+and better scalability,which is crucial for delivering a smooth user experience on the platform.

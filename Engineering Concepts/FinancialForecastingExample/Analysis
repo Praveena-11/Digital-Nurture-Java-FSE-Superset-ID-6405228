@@ -1,0 +1,8 @@
+ Time Complexity
+The recursive solution has O(n) time complexity, where n is the number of years.
+
+This is because each recursive call reduces the number of years by 1, resulting in n total recursive calls.
+
+Optimization
+To optimize more complex recursive problems:
+Use memoization.Or convert the solution into an iterative approach, which avoids function call overhead and stack usage.

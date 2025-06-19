@@ -1,0 +1,17 @@
+Big O notation is used to describe the time or space complexity of an algorithm in terms of input size n.
+It helps analyze how an algorithm's performance scales as the dataset grows, especially in the worst-case scenario.
+
+Common time complexities include:
+
+O(1) – Constant time (e.g., accessing an array element).
+O(n) – Linear time (e.g., linear search).
+O(log n) – Logarithmic time (e.g., binary search).
+
+It allows developers to compare and choose the most efficient algorithm for a given problem.
+For search operations, we consider three performance cases:
+
+Best Case: The element is found immediately (e.g., first element in linear search).
+Average Case: The element is found somewhere in the middle.
+Worst Case: The element is last or not present at all (maximum comparisons needed).
+
+This analysis is essential for optimizing search functionality in an e-commerce platform, where fast performance improves user satisfaction and reduces server load.

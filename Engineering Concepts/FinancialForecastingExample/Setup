@@ -1,0 +1,6 @@
+Create a method that calculates the future value of an investment using the recursive formula:
+
+FutureValue(𝑛)=FutureValue(𝑛−1)×(1+growthRate)
+
+Here, n is the number of periods (e.g., years), and growthRate is the expected rate of return per period.
+
